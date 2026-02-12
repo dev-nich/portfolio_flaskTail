@@ -4,7 +4,7 @@
   "description": "Python flask templates with tailwindcss",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
+    "test": "echo \"Error: no test specified\" && exit 1",
     "buildcss": "npx tailwindcss-cli@latest -i ./app/static/css/input.css -o ./app/static/css/output.css --watch"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/dev-nich/portfolio_flaskTail#readme",
   "keywords": [],
   "dependencies": {
+    "flowbite": "^4.0.1",
     "tailwindcss": "^4.1.18"
   }
 }
