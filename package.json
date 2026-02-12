@@ -1,0 +1,24 @@
+{
+  "name": "portfolio_flasktail",
+  "version": "1.0.0",
+  "description": "Python flask templates with tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "buildcss": "npx tailwindcss-cli@latest -i ./app/static/css/input.css -o ./app/static/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-nich/portfolio_flaskTail.git"
+  },
+  "author": "dev.christines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-nich/portfolio_flaskTail/issues"
+  },
+  "homepage": "https://github.com/dev-nich/portfolio_flaskTail#readme",
+  "keywords": [],
+  "dependencies": {
+    "tailwindcss": "^4.1.18"
+  }
+}

@@ -4,9 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>DC Flask + Tailwind Templates</title>
+        <link href="{{url_for('static',filename='css/output.css')}}" rel="stylesheet">
         <body>
             {% block content %}
             {% endblock %}
+            <div class="bg-red-400">
+                TEST
+            </div>
         </body>
     </head>
     </body>
